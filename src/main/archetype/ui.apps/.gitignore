@@ -6,3 +6,6 @@ src/main/content/jcr_root/apps/${appId}/clientlibs/clientlib-angular
 #elseif ( $frontendModule == "react" )
 src/main/content/jcr_root/apps/${appId}/clientlibs/clientlib-react
 #end
+#if ( $includeFormsheadless == "y" )
+src/main/content/jcr_root/apps/${appId}/clientlibs/clientlib-forms-react
+#end
